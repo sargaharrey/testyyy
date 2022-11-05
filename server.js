@@ -3,13 +3,9 @@ const morgan = require('morgan')
 const cors = require('cors')
 const helmet = require('helmet')
 const bodyParser = require('body-parser')
-const cloudinary = require('./node_modules/cloudinary/cloudinary')
+
 const games = require('./test.json')
-cloudinary.config({ 
-  cloud_name: 'oversoft', 
-  api_key: '815772353671743', 
-  api_secret: 'ulL1fEOcKetMLCg5iN4rf5HOYtQ' 
-});
+
 
 let  channels  = []
 let  channelsImgs  = []
