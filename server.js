@@ -1079,7 +1079,7 @@ const imgsArr =[
 // }
 // console.log(JSON.stringify(arr))
 // console.log(arr)
-app.listen('http://test0-env.eba-b3p3pmmt.us-east-1.elasticbeanstalk.com',()=>{
+app.listen(3000,()=>{
     console.log('running on 3000')
 })
 
